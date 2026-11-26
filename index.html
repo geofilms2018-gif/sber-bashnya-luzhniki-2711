@@ -1,0 +1,43 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow">
+<title>Умное кольцо · Башня и Лужники</title>
+<style>
+@font-face{font-family:"SB Sans Display";src:url(f/sbd-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"SB Sans Text";src:url(f/sbt-400.woff2) format("woff2");font-weight:400;font-display:swap}
+:root{--bg:#0a0b0a;--fg:#eef0ec;--mut:#8b9189;--line:#232822;--acc:#B2FF66;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 "SB Sans Text",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1680px;margin:0 auto;padding:28px 16px 64px}
+h1{font:600 clamp(22px,3vw,34px)/1.15 "SB Sans Display",system-ui,sans-serif;margin:0 0 6px}
+p.sub{color:var(--mut);margin:0 0 28px}
+section{margin:0 0 40px;padding-top:18px;border-top:1px solid var(--line)}
+h2{font:600 19px/1.2 "SB Sans Display",system-ui,sans-serif;margin:0 0 4px}
+h2 span{color:var(--acc)}
+.meta{color:var(--mut);font-size:14px;margin:0 0 12px}
+.wrap{overflow-x:auto;background:#000;border:1px solid var(--line);border-radius:6px}
+.wide{display:block;width:100%;min-width:1100px;height:auto;aspect-ratio:2416/162;background:#000}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.tower{width:min(100%,320px);aspect-ratio:532/880;background:#000;border:1px solid var(--line);border-radius:6px;display:block}
+.street{flex:1 1 520px;min-width:0;aspect-ratio:16/9;background:#000;border:1px solid var(--line);border-radius:6px;display:block;width:100%}
+details{margin-top:12px}summary{cursor:pointer;color:var(--mut);font-size:14px}
+details img{width:100%;height:auto;display:block;margin-top:8px;border-radius:4px}
+</style></head><body><main>
+<h1>Умное кольцо · Башня Останкино и крыша «Лужники»</h1>
+<p class="sub">По сценарию Лео 26.11 и правкам 27.11. Видео закольцованы, без звука.</p>
+
+<section>
+<h2>Башня Останкино <span>· 30 с</span></h2>
+<p class="meta">Файл 532×880 (верх 432×450, низ 532×430), 25 к/с, края стыкуются. Зелёный на чёрном, белые точки фона, вход из чёрного и уход в чёрный на концах. Шум → кольцо и график → график с 3 с → облёт кольца 1–7 с → малое кольцо 7–14 с → 14 с падение на график, пружина → 18 с «Мы обязательно выспимся» крупно → 20 с «СБЕР Умное кольцо» → 29 с шум.</p>
+<div class="row">
+<video class="tower" src="v/bashnya.mp4" autoplay muted loop playsinline controls></video>
+<video class="street" src="v/bashnya_ulica.mp4" autoplay muted loop playsinline controls></video>
+</div>
+<details><summary>Лист кадров (каждую секунду)</summary><img src="v/bashnya_list.jpg" alt="Кадры Башни каждую секунду" loading="lazy"></details>
+</section>
+
+<section>
+<h2>Крыша «Лужники» <span>· 20 с</span></h2>
+<p class="meta">2416×162, 25 к/с, до 10 Мбит/с, края стыкуются, лента едет справа налево, один оборот за 20 с. Графики сна из приложения → внутренняя сторона кольца → кольцо в высоту экрана → из-за кольца выезжает «Мы обязательно выспимся вместе с умным кольцом Сбер».</p>
+<div class="wrap"><video class="wide" src="v/krysha.mp4" autoplay muted loop playsinline controls></video></div>
+<details><summary>Лист кадров (каждую секунду)</summary><img src="v/krysha_list.jpg" alt="Кадры крыши каждую секунду" loading="lazy"></details>
+</section>
+</main></body></html>
