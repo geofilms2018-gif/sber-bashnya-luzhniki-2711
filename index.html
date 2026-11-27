@@ -28,10 +28,10 @@ h2 small{font:400 14px "SB Sans Text",system-ui,sans-serif;color:var(--mut)}
 .t{font-variant-numeric:tabular-nums;color:var(--mut);font-size:13px;margin-left:auto;align-self:center}
 </style></head><body><main>
 <h1>Умное кольцо · Башня Останкино и крыша «Лужники»</h1>
-<p class="sub">Версия 10 · правки 27.11 · Башня v10.1 (по созвону с Лео) · Крыша «Лужники» v10.1. Видео без звука, закольцованы.</p>
+<p class="sub">Версия 10 · правки 27.11 · Башня v10.2 (по созвону с Лео) · Крыша «Лужники» v10.1. Видео без звука, закольцованы.</p>
 
 <section data-player="bashnya">
-<h2>Башня Останкино <small>532×880 · 25 к/с · основной ролик v10.1 · анимация текста v9</small></h2>
+<h2>Башня Останкино <small>532×880 · 25 к/с · основной ролик v10.2 · анимация текста v9</small></h2>
 <div class="bar">
   <div class="seg" data-k="clip"><button data-v="main" aria-pressed="true">Основной ролик</button><button data-v="demo">Анимация текста</button></div>
   <div class="seg" data-k="view"><button data-v="zdanie" aria-pressed="true">На здании</button><button data-v="plosko">Плоско</button></div>
@@ -43,7 +43,7 @@ h2 small{font:400 14px "SB Sans Text",system-ui,sans-serif;color:var(--mut)}
 
 <section>
 <h2>Башня · анимация текста на макете <small>текст идёт снизу вверх · версия 9</small></h2>
-<div class="stage"><video playsinline muted loop autoplay preload="auto" controls src="v/bashnya_demo_ulica.mp4?v=10"></video></div>
+<div class="stage"><video playsinline muted loop autoplay preload="auto" controls src="v/bashnya_demo_ulica.mp4?v=10b"></video></div>
 <p class="meta">Вид башни с улицы: кольца на нижнем экране прыгают вверх, рассыпаются в частицы, и на верхнем экране из них собирается «Мы обязательно выспимся». Буквы стоят прямо.</p>
 </section>
 
@@ -60,7 +60,7 @@ h2 small{font:400 14px "SB Sans Text",system-ui,sans-serif;color:var(--mut)}
 </section>
 </main>
 <script>
-const V='?v=10';
+const V='?v=10b';
 const SRC={
  bashnya:s=>({main:{zdanie:'v/bashnya_ulica.mp4',plosko:'v/bashnya.mp4'},demo:{zdanie:'v/bashnya_demo_ulica.mp4',plosko:'v/bashnya_demo.mp4'}})[s.clip][s.view],
  krysha:s=>'v/luzhniki_3d'+(s.cvet==='b'?'_belyy':'')+'.mp4'
